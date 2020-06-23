@@ -70,7 +70,7 @@ class MusicLibraryController
     #index's song and its artist
     binding.pry
     if list_songs.each{|x| x}.include?(user_input)
-      
+
     #puts "Playing #{song.name} by #{song.artist.name}"
   end
 

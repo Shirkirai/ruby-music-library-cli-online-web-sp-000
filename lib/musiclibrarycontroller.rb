@@ -68,7 +68,7 @@ class MusicLibraryController
     #user input should be an integer ranging from 1 to 4
     #once the user input is entered, the method should shoutout the corresponding
     #index's song and its artist
-    binding.pry
+    
     if (1..Song.all.length).include?(user_input)
       song = Song.all.sort_by(&:name)[user_input - 1]
     end

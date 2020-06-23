@@ -21,6 +21,10 @@ class MusicLibraryController
     puts "To play a song, enter 'play song'."
     puts "To quit, type 'exit'."
     puts "What would you like to do?"
+
+      input = nil
+      until input == "exit"
+
   end
 
   def list_songs
@@ -68,7 +72,7 @@ class MusicLibraryController
     #user input should be an integer ranging from 1 to 4
     #once the user input is entered, the method should shoutout the corresponding
     #index's song and its artist
-    
+
     if (1..Song.all.length).include?(user_input)
       song = Song.all.sort_by(&:name)[user_input - 1]
     end

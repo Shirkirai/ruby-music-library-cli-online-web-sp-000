@@ -23,8 +23,8 @@ class MusicLibraryController
     puts "What would you like to do?"
 
       input = nil
-      until input == "exit"
-        
+      while input == "exit"
+
   end
 
   def list_songs

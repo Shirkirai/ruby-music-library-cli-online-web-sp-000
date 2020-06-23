@@ -64,7 +64,7 @@ class MusicLibraryController
 
   def play_song
     puts "Which song number would you like to play?"
-    user_input = gets.strip
+    user_input = gets.strip.to_i
     #user input should be an integer ranging from 1 to 4
     #once the user input is entered, the method should shoutout the corresponding
     #index's song and its artist

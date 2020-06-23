@@ -24,6 +24,7 @@ class MusicLibraryController
 
       input = nil
       while input != "exit"
+        input.gets.strip
 
   end
 

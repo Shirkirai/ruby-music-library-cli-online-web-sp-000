@@ -68,7 +68,8 @@ class MusicLibraryController
     #user input should be an integer ranging from 1 to 4
     #once the user input is entered, the method should shoutout the corresponding
     #index's song and its artist
-    puts "Playing #{song.name} by #{song.artist.name}" if user_input == index
+    
+    puts "Playing #{song.name} by #{song.artist.name}" if user_input == 
   end
 
 end

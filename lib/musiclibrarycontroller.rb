@@ -42,7 +42,7 @@ class MusicLibraryController
       end
     end
 
-  end
+  
 
   def list_songs
     Song.all.sort_by(&:name).each.with_index(1) do |song, index|
